@@ -1,0 +1,35 @@
+
+header{
+  background-color: orange;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  position: sticky;
+}
+body{
+  background-color: white;
+}
+.stockCard{
+  padding: 10px;
+  margin: 20px;
+  font-size: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  border: 50px green;
+  background-color: green;
+}
+.cardDiv{
+  flex:50%;
+}
+#company{
+  color:black;
+}
+#icon{
+  font-size: 30px;
+}
+#percentageDiff{
+  background-color: purple;
+  border-radius: 5px;
+  width: 70%;
+}
